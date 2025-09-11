@@ -16,15 +16,15 @@ You can find the dataset here:
 🔧 **Tech Stack**  
 - **Data Analysis & Visualization**: `pandas`, `seaborn`, `matplotlib`  
 - **Modeling**: `TensorFlow`, `Keras`  
-- **Backend**: `Flask` REST API  
-- **Frontend**: `React`, `Tailwind CSS`, `Axios`
+- **Server**: `Flask` REST API  
+- **Client**: `React`, `Tailwind CSS`, `Axios`
 
 ---
 
 📁 **Project Structure**  
 - `**model_training/**`: Contains the trained model file, scaler, and Jupyter notebook for training and exploration.  
-- `**backend/**`: Flask API source code for serving predictions.  
-- `**frontend/**`: React application for user interaction and visualization.  
+- `**server/**`: Flask API source code for serving predictions.  
+- `**client/**`: React application for user interaction and visualization.  
 - `**data/**`: Contains the original dataset file.  
 - `**README.md**`: Project documentation.
 
@@ -66,7 +66,7 @@ To run the API, install the required dependencies and start the Flask server.
 
 ---
 
-💻 **5. React Frontend**  
+💻 **5. React Client**  
 The frontend provides a **clean, modern, and responsive UI**:  
 - Users can input house features (e.g., number of bedrooms, square footage) and get real-time predictions 🖥️  
 - Features include **input validation**, user-friendly forms, and seamless **API integration** using `Axios`.
@@ -88,7 +88,7 @@ The frontend provides a **clean, modern, and responsive UI**:
 | **Data/EDA**  | `pandas`, `seaborn`, `matplotlib` |  
 | **Modeling**  | `TensorFlow`, `Keras`, `scikit-learn` |  
 | **API**       | `Flask`, `joblib`, `numpy`, `pandas` |  
-| **Frontend**  | `React`, `Tailwind CSS`, `Axios` |  
+| **Client**  | `React`, `Tailwind CSS`, `Axios` |  
 
 ---
 
