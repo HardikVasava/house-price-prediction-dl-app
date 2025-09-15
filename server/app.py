@@ -6,8 +6,8 @@ import numpy as np
 import pandas as pd
 
 
-model = load_model('../model_training/models/house_price_prediction_model.keras')
-scaler = joblib.load('../model_training/models/house_price_prediction_scaler.pkl')
+model = load_model('../model-training/models/house_price_prediction_model.keras')
+scaler = joblib.load('../model-training/models/house_price_prediction_scaler.pkl')
 
 
 app = Flask(__name__)
